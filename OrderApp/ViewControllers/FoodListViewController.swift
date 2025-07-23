@@ -6,7 +6,7 @@ class FoodListViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Food Menu"
+        title = "Items Menu"
         tableView.register(FoodCell.self, forCellReuseIdentifier: "FoodCell")
 
         APIService.shared.fetchFoodItems { items in
