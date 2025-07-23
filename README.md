@@ -23,7 +23,7 @@ You’ll be working in a UIKit-based Swift app. The current features include:
 
 ### 1. 🐛 **Fix Existing Issues**
 
-- [ ]  **Images are cut off** in the main list view. Adjust the layout to maintain aspect ratio and proper padding.
+**Note:**  **Images are cut off** in the main list view. Adjust the layout to maintain aspect ratio and proper padding.
 - [ ]  **Text overflows** the screen on some product names and descriptions. Ensure labels wrap and layout correctly.
 - [ ]  **Prices are missing** on the product list. Display the price of each product.
 - [ ]  Convert all prices from USD to GBP using the fixed conversion: **`$1 = £0.74`**
