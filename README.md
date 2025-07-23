@@ -2,11 +2,11 @@
 
 ### 👋 Overview
 
-At **LoPay**, we care deeply about building high-quality, user-friendly mobile experiences. This tech test will simulate a collaborative pairing session where we’ll assess how you work through real-world problems — from fixing existing bugs to building and refining features.
+At **Lopay**, we care deeply about building high-quality, user-friendly mobile experiences. This tech test will simulate a collaborative pairing session where we’ll assess how you work through real-world problems, from fixing existing bugs to building and refining features.
 
 You'll be working with an existing iOS Swift project that fetches products from a dummy API and displays them in a list. Your task is to identify and fix some known issues, implement UI improvements, and add functionality for a shopping cart.
 
-We’ll pair-code together for this test. You are encouraged to ask questions, reason out loud, and search the internet if needed — just like in a real team setting.
+We’ll pair-code together for this test. You are encouraged to ask questions, reason out loud, and search the internet if needed, just like in a real team setting.
 
 ---
 
@@ -84,7 +84,7 @@ We’re not expecting pixel-perfect UI. We're interested in:
 
 ---
 
-### 📦 Optional (Bonus Ideas — Only if there's time)
+### 📦 Optional (Bonus Ideas, Only if there's time)
 
 - Add basic **unit tests** for cart logic
 - Add **loading indicators** when fetching products
