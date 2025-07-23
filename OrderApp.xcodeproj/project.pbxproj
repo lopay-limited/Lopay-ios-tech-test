@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		422EB377B414EE9C6BC6FD5E /* Pods_FoodOrderApp_FoodOrderAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE464FD1B81D6491C39143F /* Pods_FoodOrderApp_FoodOrderAppUITests.framework */; };
+		526CBDC48324A0E92D675991 /* Pods_FoodOrderApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A46EDDC1C225DCA2587384A /* Pods_FoodOrderApp.framework */; };
+		A21FCFCBB932F39526082197 /* Pods_FoodOrderAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F857872ADEE0EB65BDB1F64F /* Pods_FoodOrderAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3B31C1E2E30EEA400EA8F59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3B31BFF2E30EEA300EA8F59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3B31C062E30EEA300EA8F59;
+			remoteInfo = FoodOrderApp;
+		};
+		F3B31C282E30EEA400EA8F59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3B31BFF2E30EEA300EA8F59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3B31C062E30EEA300EA8F59;
+			remoteInfo = FoodOrderApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03280647AEF8B40C15A7A538 /* Pods-FoodOrderApp-FoodOrderAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodOrderApp-FoodOrderAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-FoodOrderApp-FoodOrderAppUITests/Pods-FoodOrderApp-FoodOrderAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		07D9BE25F8234B99C0CB2445 /* Pods-FoodOrderApp-FoodOrderAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodOrderApp-FoodOrderAppUITests.release.xcconfig"; path = "Target Support Files/Pods-FoodOrderApp-FoodOrderAppUITests/Pods-FoodOrderApp-FoodOrderAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1A46EDDC1C225DCA2587384A /* Pods_FoodOrderApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodOrderApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5042B611B048AEA4EC57CFFA /* Pods-FoodOrderAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodOrderAppTests.release.xcconfig"; path = "Target Support Files/Pods-FoodOrderAppTests/Pods-FoodOrderAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		5B037EB48BEF12E2E41607B2 /* Pods-FoodOrderApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodOrderApp.debug.xcconfig"; path = "Target Support Files/Pods-FoodOrderApp/Pods-FoodOrderApp.debug.xcconfig"; sourceTree = "<group>"; };
+		93CADB10B9E030F6BA3AF563 /* Pods-FoodOrderAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodOrderAppTests.debug.xcconfig"; path = "Target Support Files/Pods-FoodOrderAppTests/Pods-FoodOrderAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9DE464FD1B81D6491C39143F /* Pods_FoodOrderApp_FoodOrderAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodOrderApp_FoodOrderAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54D7EFA36EB8BC709C9BBE9 /* Pods-FoodOrderApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodOrderApp.release.xcconfig"; path = "Target Support Files/Pods-FoodOrderApp/Pods-FoodOrderApp.release.xcconfig"; sourceTree = "<group>"; };
+		F3B31C072E30EEA300EA8F59 /* OrderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B31C1D2E30EEA400EA8F59 /* OrderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B31C272E30EEA400EA8F59 /* OrderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F857872ADEE0EB65BDB1F64F /* Pods_FoodOrderAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodOrderAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F3B31C2F2E30EEA400EA8F59 /* Exceptions for "OrderApp" folder in "OrderApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F3B31C062E30EEA300EA8F59 /* OrderApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F3B31C092E30EEA300EA8F59 /* OrderApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F3B31C2F2E30EEA400EA8F59 /* Exceptions for "OrderApp" folder in "OrderApp" target */,
+			);
+			path = OrderApp;
+			sourceTree = "<group>";
+		};
+		F3B31C202E30EEA400EA8F59 /* OrderAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OrderAppTests;
+			sourceTree = "<group>";
+		};
+		F3B31C2A2E30EEA400EA8F59 /* OrderAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OrderAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3B31C042E30EEA300EA8F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526CBDC48324A0E92D675991 /* Pods_FoodOrderApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B31C1A2E30EEA400EA8F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21FCFCBB932F39526082197 /* Pods_FoodOrderAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B31C242E30EEA400EA8F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422EB377B414EE9C6BC6FD5E /* Pods_FoodOrderApp_FoodOrderAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		722BB5063DBC774D97CCD77E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B037EB48BEF12E2E41607B2 /* Pods-FoodOrderApp.debug.xcconfig */,
+				D54D7EFA36EB8BC709C9BBE9 /* Pods-FoodOrderApp.release.xcconfig */,
+				03280647AEF8B40C15A7A538 /* Pods-FoodOrderApp-FoodOrderAppUITests.debug.xcconfig */,
+				07D9BE25F8234B99C0CB2445 /* Pods-FoodOrderApp-FoodOrderAppUITests.release.xcconfig */,
+				93CADB10B9E030F6BA3AF563 /* Pods-FoodOrderAppTests.debug.xcconfig */,
+				5042B611B048AEA4EC57CFFA /* Pods-FoodOrderAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A42496B69A04D28BC72E9E53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A46EDDC1C225DCA2587384A /* Pods_FoodOrderApp.framework */,
+				9DE464FD1B81D6491C39143F /* Pods_FoodOrderApp_FoodOrderAppUITests.framework */,
+				F857872ADEE0EB65BDB1F64F /* Pods_FoodOrderAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3B31BFE2E30EEA300EA8F59 = {
+			isa = PBXGroup;
+			children = (
+				F3B31C092E30EEA300EA8F59 /* OrderApp */,
+				F3B31C202E30EEA400EA8F59 /* OrderAppTests */,
+				F3B31C2A2E30EEA400EA8F59 /* OrderAppUITests */,
+				F3B31C082E30EEA300EA8F59 /* Products */,
+				722BB5063DBC774D97CCD77E /* Pods */,
+				A42496B69A04D28BC72E9E53 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3B31C082E30EEA300EA8F59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3B31C072E30EEA300EA8F59 /* OrderApp.app */,
+				F3B31C1D2E30EEA400EA8F59 /* OrderAppTests.xctest */,
+				F3B31C272E30EEA400EA8F59 /* OrderAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3B31C062E30EEA300EA8F59 /* OrderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B31C302E30EEA400EA8F59 /* Build configuration list for PBXNativeTarget "OrderApp" */;
+			buildPhases = (
+				A8AB48221A4461AEDDCC1FC7 /* [CP] Check Pods Manifest.lock */,
+				F3B31C032E30EEA300EA8F59 /* Sources */,
+				F3B31C042E30EEA300EA8F59 /* Frameworks */,
+				F3B31C052E30EEA300EA8F59 /* Resources */,
+				1A38ED0AD201F53B434065EB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F3B31C092E30EEA300EA8F59 /* OrderApp */,
+			);
+			name = OrderApp;
+			productName = FoodOrderApp;
+			productReference = F3B31C072E30EEA300EA8F59 /* OrderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3B31C1C2E30EEA400EA8F59 /* OrderAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B31C352E30EEA400EA8F59 /* Build configuration list for PBXNativeTarget "OrderAppTests" */;
+			buildPhases = (
+				944AF0F4B49F068C7DFEB7E6 /* [CP] Check Pods Manifest.lock */,
+				F3B31C192E30EEA400EA8F59 /* Sources */,
+				F3B31C1A2E30EEA400EA8F59 /* Frameworks */,
+				F3B31C1B2E30EEA400EA8F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3B31C1F2E30EEA400EA8F59 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F3B31C202E30EEA400EA8F59 /* OrderAppTests */,
+			);
+			name = OrderAppTests;
+			productName = FoodOrderAppTests;
+			productReference = F3B31C1D2E30EEA400EA8F59 /* OrderAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3B31C262E30EEA400EA8F59 /* OrderAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B31C382E30EEA400EA8F59 /* Build configuration list for PBXNativeTarget "OrderAppUITests" */;
+			buildPhases = (
+				00EB5E1549927C01BBF18C0D /* [CP] Check Pods Manifest.lock */,
+				F3B31C232E30EEA400EA8F59 /* Sources */,
+				F3B31C242E30EEA400EA8F59 /* Frameworks */,
+				F3B31C252E30EEA400EA8F59 /* Resources */,
+				9D9CFC77D724ECAB4795ACD7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3B31C292E30EEA400EA8F59 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F3B31C2A2E30EEA400EA8F59 /* OrderAppUITests */,
+			);
+			name = OrderAppUITests;
+			productName = FoodOrderAppUITests;
+			productReference = F3B31C272E30EEA400EA8F59 /* OrderAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3B31BFF2E30EEA300EA8F59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F3B31C062E30EEA300EA8F59 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					F3B31C1C2E30EEA400EA8F59 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F3B31C062E30EEA300EA8F59;
+					};
+					F3B31C262E30EEA400EA8F59 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F3B31C062E30EEA300EA8F59;
+					};
+				};
+			};
+			buildConfigurationList = F3B31C022E30EEA300EA8F59 /* Build configuration list for PBXProject "OrderApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3B31BFE2E30EEA300EA8F59;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F3B31C082E30EEA300EA8F59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3B31C062E30EEA300EA8F59 /* OrderApp */,
+				F3B31C1C2E30EEA400EA8F59 /* OrderAppTests */,
+				F3B31C262E30EEA400EA8F59 /* OrderAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3B31C052E30EEA300EA8F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B31C1B2E30EEA400EA8F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B31C252E30EEA400EA8F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00EB5E1549927C01BBF18C0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodOrderApp-FoodOrderAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A38ED0AD201F53B434065EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodOrderApp/Pods-FoodOrderApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodOrderApp/Pods-FoodOrderApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodOrderApp/Pods-FoodOrderApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		944AF0F4B49F068C7DFEB7E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodOrderAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D9CFC77D724ECAB4795ACD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodOrderApp-FoodOrderAppUITests/Pods-FoodOrderApp-FoodOrderAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodOrderApp-FoodOrderAppUITests/Pods-FoodOrderApp-FoodOrderAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodOrderApp-FoodOrderAppUITests/Pods-FoodOrderApp-FoodOrderAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8AB48221A4461AEDDCC1FC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodOrderApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3B31C032E30EEA300EA8F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B31C192E30EEA400EA8F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B31C232E30EEA400EA8F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3B31C1F2E30EEA400EA8F59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3B31C062E30EEA300EA8F59 /* OrderApp */;
+			targetProxy = F3B31C1E2E30EEA400EA8F59 /* PBXContainerItemProxy */;
+		};
+		F3B31C292E30EEA400EA8F59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3B31C062E30EEA300EA8F59 /* OrderApp */;
+			targetProxy = F3B31C282E30EEA400EA8F59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F3B31C312E30EEA400EA8F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B037EB48BEF12E2E41607B2 /* Pods-FoodOrderApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C8XQV52U6;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OrderApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lopay.OrderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3B31C322E30EEA400EA8F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D54D7EFA36EB8BC709C9BBE9 /* Pods-FoodOrderApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C8XQV52U6;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OrderApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lopay.OrderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3B31C332E30EEA400EA8F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3B31C342E30EEA400EA8F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3B31C362E30EEA400EA8F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93CADB10B9E030F6BA3AF563 /* Pods-FoodOrderAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C8XQV52U6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lopay.OrderAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrderApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OrderApp";
+			};
+			name = Debug;
+		};
+		F3B31C372E30EEA400EA8F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5042B611B048AEA4EC57CFFA /* Pods-FoodOrderAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C8XQV52U6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lopay.OrderAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrderApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OrderApp";
+			};
+			name = Release;
+		};
+		F3B31C392E30EEA400EA8F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03280647AEF8B40C15A7A538 /* Pods-FoodOrderApp-FoodOrderAppUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C8XQV52U6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lopay.OrderAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OrderApp;
+			};
+			name = Debug;
+		};
+		F3B31C3A2E30EEA400EA8F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07D9BE25F8234B99C0CB2445 /* Pods-FoodOrderApp-FoodOrderAppUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C8XQV52U6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lopay.OrderAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OrderApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3B31C022E30EEA300EA8F59 /* Build configuration list for PBXProject "OrderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B31C332E30EEA400EA8F59 /* Debug */,
+				F3B31C342E30EEA400EA8F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B31C302E30EEA400EA8F59 /* Build configuration list for PBXNativeTarget "OrderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B31C312E30EEA400EA8F59 /* Debug */,
+				F3B31C322E30EEA400EA8F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B31C352E30EEA400EA8F59 /* Build configuration list for PBXNativeTarget "OrderAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B31C362E30EEA400EA8F59 /* Debug */,
+				F3B31C372E30EEA400EA8F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B31C382E30EEA400EA8F59 /* Build configuration list for PBXNativeTarget "OrderAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B31C392E30EEA400EA8F59 /* Debug */,
+				F3B31C3A2E30EEA400EA8F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3B31BFF2E30EEA300EA8F59 /* Project object */;
+}
