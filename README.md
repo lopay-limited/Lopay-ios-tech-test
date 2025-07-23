@@ -91,11 +91,3 @@ We’re not expecting pixel-perfect UI. We're interested in:
 - Support **empty state** (e.g. when no items in cart)
 
 ---
-
-Let me know if you want me to:
-
-- Inject the bugs
-- Build a starter project with a basic cart model
-- Package this as a `README.md` and add it to your zip bundle
-
-Ready when you are!
